@@ -1,0 +1,46 @@
+##COST  
+
+**C**lean - **O**rganized - **S**implistic - **T**heme  
+
+*****
+
+######This is a H6, place it anywhere in the sidebar  
+
+>This is a quote  
+
+*****  
+
+#This is a H1  
+
+>How:    #This is a H1  
+The text is centered in H1's  
+
+*****  
+
+##This is a H2  
+
+>How:    ##This is a H2  
+H2's are the same as H3's, but without a margin on top  
+
+*****  
+
+###This is a H3  
+
+>How:    ###This is a H3  
+>H3's has a margin of 20px above it.  
+
+*****  
+
+Horizontal rules (line above)  
+
+>How:    *****  
+>Horizontal rules adds a margin of 10px over and under  
+
+^^^^^^^^^^^^^^^^^^^^^^.  
+
+> 1.  Browse by flair ▾  
+> 2. [Flair 1](http://www.google.com)  
+> 3. [Flair 2](http://www.google.com)    
+> 4. [Flair 3](http://www.google.com)    
+> 5. [Flair 4](http://www.google.com)    
+> 6. [Etc...](http://www.google.com)  
