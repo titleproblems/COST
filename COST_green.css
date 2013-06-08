@@ -20,6 +20,9 @@
     /*
      
     /* Makes stylesheet nicer */
+    .stylesheet-customize-container { width: 100%; }
+    #subreddit_stylesheet { display: block; overflow: hidden; }
+    .sheets { margin: 0;}
     #stylesheet_contents {
         font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
         padding:5px;
