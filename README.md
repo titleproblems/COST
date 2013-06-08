@@ -1,29 +1,25 @@
-COST
-**C**lean - **O**rganized - **S**implistic - **T**heme  
-====
+##COST  
 
-*^Please ^note ^that ^this ^subreddit ^is ^NOT ^using ^any ^of ^the ^COST ^themes!*  
-*^COST ^theme ^originally ^made ^for ^/r/juggling*  
+**C**lean - **O**rganized - **S**implistic - **T**heme  
+
+====
   
-###Leave a comment if you use the theme, I'd love to know!!  
+###Leave a comment/send a message to /u/titleproblems if you use the theme, I'd love to know!!  
   
 *****  
-
-###COST  
-**C**lean - **O**rganized - **S**implistic - **T**heme  
   
 | Name   | Preview   | Stylesheet     | Image preview |
 |:-----------|:------------|:-------------|:-------------|
-|COST_blue|/r/COST_blue| http://pastebin.com/zeDU28JL | http://i.imgur.com/LkSGecc.png |
-|COST_orange  |/r/COST_orange|http://pastebin.com/f64wKk5j | http://i.imgur.com/OsFZnz5.png |
+|COST_blue|/r/COST_blue| https://github.com/titleproblems/COST/blob/master/COST_blue.css | http://i.imgur.com/LkSGecc.png |
+|COST_orange  |/r/COST_orange| https://github.com/titleproblems/COST/blob/master/COST_orange.css | http://i.imgur.com/OsFZnz5.png |
 |COST_red       |/r/COST_red|*Coming soon*  | *Coming soon* |
-|COST_green|/r/COST_green|http://pastebin.com/pdBptt20 | *Coming soon* |
+|COST_green|/r/COST_green| https://github.com/titleproblems/COST/blob/master/COST_green.css | *Coming soon* |
   
 *^I'm ^probably ^going ^to ^perfect ^the ^orange ^colors ^soon.*  
 If you want a different color scheme, let me know and I'll make it when I have time!
   
 ###How to download (following these steps are important) :  
-* Go to the patebin link for your prefered color
+* Go to the github link for your prefered color, All the files are listed here: https://github.com/titleproblems/COST
 * Scroll down and copy the "RAW Paste Data"
 * Go to the subreddit settings, scroll down and click "edit the stylesheet". (located under "look and feel")  
 * Paste CSS  
