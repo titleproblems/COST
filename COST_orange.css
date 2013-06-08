@@ -1,348 +1,351 @@
-  
+/*
+    Welcome to /r/SUBREDDIT-NAME-HERE 's stylesheet.
+   
+    COST: Clean - Organized - Simplistic - Theme
+    Theme made by /u/titleproblems
+    Visit /r/titleproblems for more variants of COST and for more themes and templates!
+     
+    A copy of this theme can be found at: https://github.com/titleproblems/COST/blob/master/COST_orange.css
 
-    /*
-        Welcome to /r/SUBREDDIT-NAME-HERE 's stylesheet.
-       
-        COST: Clean - Organized - Simplistic - Theme
-        Theme made by /u/titleproblems
-        Visit /r/titleproblems for more variants of COST and for more themes and templates!
-         
-        Organized CSS Comments to make the code more organized by /u/titleproblems
-        Get it yourself! http://pastebin.com/JebhGdP8
-    */
+    Organized CSS Comments to make the code more organized by /u/titleproblems
+    Get it yourself! http://pastebin.com/JebhGdP8
+*/
+ 
+/*
+COLOR SCHEME
+Main: #f07602
+Sub-color: #f8b263
+Border-color: #cc690b
+Background-color: #FFF
+/*
+ 
+/* Makes stylesheet nicer */
+.stylesheet-customize-container { width: 100%; }
+#subreddit_stylesheet { display: block; overflow: hidden; }
+.sheets { margin: 0;}
+#stylesheet_contents {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    padding:5px;
+    background-color:#222;
+    color:#ace;
+    border:2px solid #222;
+    height: 420px;
+    font-size: 13px;
+}
+body.res-nightmode #stylesheet_contents {
+    background-color:#111;
+    border-color:#111;
+    height: 500px;
+    font-size: 13px;
+}
+/* End of stylesheet changes */
      
-    /*
-    COLOR SCHEME
-    Main: #f07602
-    Sub-color: #f8b263
-    Border-color: #cc690b
-    Background-color: #FFF
-    /*
+    /***** Body *****/
+    /***** END of Body *****/
      
-    /* Makes stylesheet nicer */
-    #stylesheet_contents {
-        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-        padding:5px;
-        background-color:#222;
-        color:#ace;
-        border:2px solid #222;
-        height: 420px;
-        font-size: 13px;
-    }
-    body.res-nightmode #stylesheet_contents {
-        background-color:#111;
-        border-color:#111;
-        height: 500px;
-        font-size: 13px;
-    }
-    /* End of stylesheet changes */
-         
-        /***** Body *****/
-        /***** END of Body *****/
-         
-        /***** Header *****/
+    /***** Header *****/
+ 
+ 
+/* login menu WITHOUT RES */
+#header-bottom-right {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    bottom: 8px;
+    float: right;
+    background: transparent;
+}
+ 
+/* END of login menu WITHOUT RES */
+ 
+/* login menu WITH RES */
+ 
+#header-bottom-right.res-navTop {
+    position: absolute;
+    top: 26px;
+    right: 10px;
+    bottom: 8px;
+    float: right;
+    background: transparent;
+}
+ 
+#userbarToggle.userbarHide {
+    display: none;
+}
+ 
+/* END of login menu WITH RES */
+ 
+#header-bottom-left {
+   
+}
+ 
+#header {
+    background-color: #f07602;
+    border-bottom: 1px solid #cc690b;
+}
+ 
+#sr-header-area {
+    background-color: #f8b263;
+}
+ 
+    /***** END of Header *****/
      
+    /***** Tabmenu *****/
+ 
+.tabmenu li a {
+    background-color: #f8b263;
+}
+ 
+    /***** END of Tabmenu *****/
      
-    /* login menu WITHOUT RES */
-    #header-bottom-right {
-        position: absolute;
-        top: 30px;
-        right: 10px;
-        bottom: 8px;
-        float: right;
-        background: transparent;
-    }
+    /***** Side *****/
+ 
+.side {
+    margin-top: 25px;
+    padding-left: 10px;
+}
+ 
+.titlebox .md h1 {
+    background-color: #f07602;
+    padding: 5px;
+    text-align: center;
+}
+ 
+.titlebox .md h2 {
+    background-color: #f8b263;
+    padding: 8px;
+    color: #000;
+}
+ 
+.titlebox .md h3 {
+    background-color: #f8b263;
+    padding: 8px;
+    margin-top: 20px;
+}
+ 
+.titlebox .md hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f8b263;
+    color: #f8b263;
+    border-color: #f8b263;
+}
+ 
+/* Link bar on top of the page */
+.side .md h6 {
+    position: absolute;
+    top: 60px;
+    left: -5px;
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #f8b263;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 1px;
+    padding-top: 9px;
+    width: 100%;
+    text-indent: 130px;
+    display: block;
+    height: 19px;
+    padding-right: 3px;
+}
+ 
+.side .md h6 a {
+    color: #000;
+}
+ 
+.side .md h6 a:hover {
+    text-decoration: underline;
+}
+/* END of Link bar on top of the page */
+ 
+/* Dropdown menu top */
+ 
+.side .md blockquote:last-of-type {
+    position: absolute;
+    top: 60px;
+    left: -2px;
+    border: 0 none;
+    z-index: 99;
+    padding: 2px;
+    background-color: #f8b263;
+    border-radius: 0px;
+    border-bottom: 1px solid #f8b263;
+    font-weight: bold;
+    color: #000;
+}
+ 
+.side .md blockquote:last-of-type ol {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 0;
+}
+ 
+.side .md blockquote:last-of-type ol li { display: none; }
+.side .md blockquote:last-of-type ol li:first-child { display: block; text-decoration: none; }
+.side .md blockquote:last-of-type ol:hover li { display: block; text-decoration: none }
+.side .md blockquote:last-of-type a { color:#000; }
+.side .md blockquote:last-of-type a:hover { text-decoration: underline; }
+ 
+/* END of Dropdown menu top */
+ 
+.titlebox blockquote {
+    background-color: rgb(246, 230, 159);
+    border: 1px solid rgb(255, 165, 0);
+    border-radius: 3px;
+    padding: 2px;
+    padding-left: 5px;
+    margin-left: 0px;
+}
+ 
+/* Submit links */
+ 
+.morelink {
+    background-color: #f07602;
+    background-image: none;
+    border: 1px solid #cc690b;
+}
+ 
+.morelink a {
+    color: #000;
+}
+ 
+.morelink:hover {
+    background-image: none;
+    background-color: #ea9534;
+    border: 1px solid #cc690b;
+    text-shadow: 1px 1px 5px #8b5eef;
+}
+ 
+.morelink .nub {
+    display: none;
+}
+ 
+/* END of Submit links */
+ 
+#search input[type="text"] {
+    color: #f07602;
+    border: 0px solid #000;
+    z-index: 6;
+    position: absolute;
+    top: 67px;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+}
+ 
+ 
+ 
+/* Flair selection */
+.titlebox form.flairtoggle {
+    background-color:#f8b263;
+    border: 1px solid #f8b263;
+    color: #000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+ 
+.titlebox .tagline {
+    border: 1px solid #f8b263;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/* END of Flair selection */
+ 
+    /***** END of Side *****/
      
-    /* END of login menu WITHOUT RES */
+    /***** Content *****/
+ 
+.content {
+    margin-top: 30px;
+}
+ 
+.link {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f8b263;
+}
+ 
+.entry .buttons li a {
+    color: #f8b263;
+    font-weight: normal;
+}
+ 
+.entry .buttons li a.flairselectbtn {
+    font-weight: bold;
+}
+ 
+.report-button:hover:after {
+    position: absolute;
+    white-space: normal;
+    display: block;
+    z-index: 1000;
+    width: 350px;
+    padding: 5px;
+    border: 0px solid #333;
+    background: #fca;
+    content: "Please also message the moderators a link and reason why you are reporting this, thanks. ";
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    margin-left: 25px;
+    margin-top: 5px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+ 
+.linkinfo {
+    background-color: #FFF;
+    border: 1px solid #f07602;
+    border-radius: 0px;
+}
+ 
+    /***** END of Content *****/
      
-    /* login menu WITH RES */
+    /***** RES Stuff *****/
+ 
+/* RES post highlight */
+ 
+.res .RES-keyNav-activeElement,
+.res .commentarea .RES-keyNav-activeElement .md,
+.res .commentarea .RES-keyNav-activeElement.entry .noncollapsed,
+.res .keyHighlight,
+.res .commentarea .keyHighlight .md,
+.res .commentarea .keyHighlight.entry .noncollapsed {
+    outline: 0px solid!important;
+    background: none;
+    border-right: 3px solid #f07602;
+}
+ 
+/* END of RES post highlight */
+ 
+    /***** END of RES Stuff *****/
      
-    #header-bottom-right.res-navTop {
-        position: absolute;
-        top: 26px;
-        right: 10px;
-        bottom: 8px;
-        float: right;
-        background: transparent;
-    }
+    /***** Link Flair Stuff *****/
+ 
+.linkflair-flair .linkflairlabel {
+    text-transform: uppercase;
+    color: #f8b263;
+    background: none;
+    border: 0px;
+}
+ 
+    /***** END of Link Flair Stuff *****/
      
-    #userbarToggle.userbarHide {
-        display: none;
-    }
+    /***** User Flair Stuff *****/
+    /***** End of User Flair Stuff *****/
      
-    /* END of login menu WITH RES */
-     
-    #header-bottom-left {
-       
-    }
-     
-    #header {
-        background-color: #f07602;
-        border-bottom: 1px solid #cc690b;
-    }
-     
-    #sr-header-area {
-        background-color: #f8b263;
-    }
-     
-        /***** END of Header *****/
-         
-        /***** Tabmenu *****/
-     
-    .tabmenu li a {
-        background-color: #f8b263;
-    }
-     
-        /***** END of Tabmenu *****/
-         
-        /***** Side *****/
-     
-    .side {
-        margin-top: 25px;
-        padding-left: 10px;
-    }
-     
-    .titlebox .md h1 {
-        background-color: #f07602;
-        padding: 5px;
-        text-align: center;
-    }
-     
-    .titlebox .md h2 {
-        background-color: #f8b263;
-        padding: 8px;
-        color: #000;
-    }
-     
-    .titlebox .md h3 {
-        background-color: #f8b263;
-        padding: 8px;
-        margin-top: 20px;
-    }
-     
-    .titlebox .md hr {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background-color: #f8b263;
-        color: #f8b263;
-        border-color: #f8b263;
-    }
-     
-    /* Link bar on top of the page */
-    .side .md h6 {
-        position: absolute;
-        top: 60px;
-        left: -5px;
-        background-color: #FFF;
-        color: #000;
-        border: 1px solid #f8b263;
-        border-right: 0px;
-        border-left: 0px;
-        padding: 1px;
-        padding-top: 9px;
-        width: 100%;
-        text-indent: 130px;
-        display: block;
-        height: 19px;
-        padding-right: 3px;
-    }
-     
-    .side .md h6 a {
-        color: #000;
-    }
-     
-    .side .md h6 a:hover {
-        text-decoration: underline;
-    }
-    /* END of Link bar on top of the page */
-     
-    /* Dropdown menu top */
-     
-    .side .md blockquote:last-of-type {
-        position: absolute;
-        top: 60px;
-        left: -2px;
-        border: 0 none;
-        z-index: 99;
-        padding: 2px;
-        background-color: #f8b263;
-        border-radius: 0px;
-        border-bottom: 1px solid #f8b263;
-        font-weight: bold;
-        color: #000;
-    }
-     
-    .side .md blockquote:last-of-type ol {
-        list-style: none;
-        display: inline-block;
-        padding: 3px;
-        margin: 0;
-    }
-     
-    .side .md blockquote:last-of-type ol li { display: none; }
-    .side .md blockquote:last-of-type ol li:first-child { display: block; text-decoration: none; }
-    .side .md blockquote:last-of-type ol:hover li { display: block; text-decoration: none }
-    .side .md blockquote:last-of-type a { color:#000; }
-    .side .md blockquote:last-of-type a:hover { text-decoration: underline; }
-     
-    /* END of Dropdown menu top */
-     
-    .titlebox blockquote {
-        background-color: rgb(246, 230, 159);
-        border: 1px solid rgb(255, 165, 0);
-        border-radius: 3px;
-        padding: 2px;
-        padding-left: 5px;
-        margin-left: 0px;
-    }
-     
-    /* Submit links */
-     
-    .morelink {
-        background-color: #f07602;
-        background-image: none;
-        border: 1px solid #cc690b;
-    }
-     
-    .morelink a {
-        color: #000;
-    }
-     
-    .morelink:hover {
-        background-image: none;
-        background-color: #ea9534;
-        border: 1px solid #cc690b;
-        text-shadow: 1px 1px 5px #8b5eef;
-    }
-     
-    .morelink .nub {
-        display: none;
-    }
-     
-    /* END of Submit links */
-     
-    #search input[type="text"] {
-        color: #f07602;
-        border: 0px solid #000;
-        z-index: 6;
-        position: absolute;
-        top: 67px;
-        float: right;
-        font-size: 14px;
-        text-align: right;
-    }
-     
-     
-     
-    /* Flair selection */
-    .titlebox form.flairtoggle {
-        background-color:#f8b263;
-        border: 1px solid #f8b263;
-        color: #000;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 3px;
-        padding-right: 3px;
-        width: 280px;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-     
-    .titlebox .tagline {
-        border: 1px solid #f8b263;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 3px;
-        padding-right: 3px;
-        width: 280px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    /* END of Flair selection */
-     
-        /***** END of Side *****/
-         
-        /***** Content *****/
-     
-    .content {
-        margin-top: 30px;
-    }
-     
-    .link {
-        padding-bottom: 5px;
-        border-bottom: 1px solid #f8b263;
-    }
-     
-    .entry .buttons li a {
-        color: #f8b263;
-        font-weight: normal;
-    }
-     
-    .entry .buttons li a.flairselectbtn {
-        font-weight: bold;
-    }
-     
-    .report-button:hover:after {
-        position: absolute;
-        white-space: normal;
-        display: block;
-        z-index: 1000;
-        width: 350px;
-        padding: 5px;
-        border: 0px solid #333;
-        background: #fca;
-        content: "Please also message the moderators a link and reason why you are reporting this, thanks. ";
-        text-align: center;
-        font-size: 10px;
-        color: red;
-        margin-left: 25px;
-        margin-top: 5px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-        -webkit-border-radius: 4px
-    }
-     
-    .linkinfo {
-        background-color: #FFF;
-        border: 1px solid #f07602;
-        border-radius: 0px;
-    }
-     
-        /***** END of Content *****/
-         
-        /***** RES Stuff *****/
-     
-    /* RES post highlight */
-     
-    .res .RES-keyNav-activeElement,
-    .res .commentarea .RES-keyNav-activeElement .md,
-    .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed,
-    .res .keyHighlight,
-    .res .commentarea .keyHighlight .md,
-    .res .commentarea .keyHighlight.entry .noncollapsed {
-        outline: 0px solid!important;
-        background: none;
-        border-right: 3px solid #f07602;
-    }
-     
-    /* END of RES post highlight */
-     
-        /***** END of RES Stuff *****/
-         
-        /***** Link Flair Stuff *****/
-     
-    .linkflair-flair .linkflairlabel {
-        text-transform: uppercase;
-        color: #f8b263;
-        background: none;
-        border: 0px;
-    }
-     
-        /***** END of Link Flair Stuff *****/
-         
-        /***** User Flair Stuff *****/
-        /***** End of User Flair Stuff *****/
-         
-        /***** Other *****/
-        /***** END of Other *****/
+    /***** Other *****/
+    /***** END of Other *****/
 
