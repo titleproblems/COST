@@ -28,15 +28,15 @@ If you want a different color scheme, let me know and I'll make it when I have t
 * Go to subreddit settings, and add this in the sidebar:  
     ######This is the top-bar. You can edit it to say whatever you want. Do not remove.  
 * Now add this in the **bottom of the sidebar** (IMPORTANT: HAS TO BE ON THE BOTTOM):  
+
+
+
 `> 1. Browse by flair ▾  `
 
-`
-`
 
 `> 2. [Flair1](link-here) ` 
 
-`
-`
+
 `> 3. [Flair2](link-here)`  
 
 Add as many of those as you want flairs.  
