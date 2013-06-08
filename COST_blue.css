@@ -1,0 +1,343 @@
+  
+
+    /*
+        Welcome to /r/SUBREDDIT-NAME-HERE 's stylesheet.
+       
+        COST: Clean - Organized - Simplistic - Theme
+        Theme made by /u/titleproblems
+        Visit /r/titleproblems for more variants of COST and for more themes and templates!
+         
+        Organized CSS Comments to make the code more organized by /u/titleproblems
+        Get it yourself! http://pastebin.com/JebhGdP8
+    */
+     
+    /*
+    COLOR SCHEME
+    Main: #8ebeef
+    Sub-color:   #cee6ff
+    Border-color: #77a7d6
+    Background-color: #FFF
+    /*
+     
+    /* Makes stylesheet nicer */
+    #stylesheet_contents {
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        padding:5px;
+        background-color:#222;
+        color:#ace;
+        border:2px solid #222;
+        height: 420px;
+        font-size: 13px;
+    }
+    body.res-nightmode #stylesheet_contents {
+        background-color:#111;
+        border-color:#111;
+        height: 500px;
+        font-size: 13px;
+    }
+    /* End of stylesheet changes */
+         
+        /***** Body *****/
+        /***** END of Body *****/
+         
+        /***** Header *****/
+     
+     
+    /* login menu WITHOUT RES */
+    #header-bottom-right {
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        bottom: 8px;
+        float: right;
+        background: transparent;
+    }
+     
+    /* END of login menu WITHOUT RES */
+     
+    /* login menu WITH RES */
+     
+    #header-bottom-right.res-navTop {
+        position: absolute;
+        top: 26px;
+        right: 10px;
+        bottom: 8px;
+        float: right;
+        background: transparent;
+    }
+     
+    #userbarToggle.userbarHide {
+        display: none;
+    }
+     
+    /* END of login menu WITH RES */
+     
+    #header-bottom-left {
+       
+    }
+     
+    #header {
+        background-color: #8ebeef;
+    }
+     
+    #sr-header-area {
+        background-color: #cee6ff;
+    }
+     
+        /***** END of Header *****/
+         
+        /***** Tabmenu *****/
+     
+    .tabmenu li a {
+        background-color: #cee6ff;
+    }
+     
+        /***** END of Tabmenu *****/
+         
+        /***** Side *****/
+     
+    .side {
+        margin-top: 25px;
+        padding-left: 10px;
+    }
+     
+    .titlebox .md h1 {
+        background-color: #8ebeef;
+        padding: 5px;
+        text-align: center;
+    }
+     
+    .titlebox .md h2 {
+        background-color: #cee6ff;
+        padding: 8px;
+        color: #000;
+    }
+     
+    .titlebox .md h3 {
+        background-color: #cee6ff;
+        padding: 8px;
+        margin-top: 20px;
+    }
+     
+    .titlebox .md hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #cee6ff;
+        color: #cee6ff;
+        border-color: #cee6ff;
+    }
+     
+    /* Link bar on top of the page */
+    .side .md h6 {
+        position: absolute;
+        top: 60px;
+        left: -5px;
+        background-color: #FFF;
+        color: rgb(51, 102, 153);
+        border: 1px solid #d1e8ff;
+        border-right: 0px;
+        border-left: 0px;
+        padding: 1px;
+        padding-top: 9px;
+        width: 100%;
+        text-indent: 130px;
+        display: block;
+        height: 19px;
+        padding-right: 3px;
+    }
+     
+    .side .md h6 a {
+        color: rgb(51, 102, 153);
+    }
+     
+    .side .md h6 a:hover {
+        text-decoration: underline;
+    }
+    /* END of Link bar on top of the page */
+     
+    /* Dropdown menu top */
+     
+    .side .md blockquote:last-of-type {
+        position: absolute;
+        top: 60px;
+        left: -2px;
+        border: 0 none;
+        z-index: 99;
+        padding: 2px;
+        background-color: #cee6ff;
+        border-radius: 0px;
+        border-bottom: 1px solid #d1e8ff;
+        font-weight: bold;
+        color: rgb(51, 102, 153);
+    }
+     
+    .side .md blockquote:last-of-type ol {
+        list-style: none;
+        display: inline-block;
+        padding: 3px;
+        margin: 0;
+    }
+     
+    .side .md blockquote:last-of-type ol li { display: none; }
+    .side .md blockquote:last-of-type ol li:first-child { display: block; text-decoration: none; }
+    .side .md blockquote:last-of-type ol:hover li { display: block; text-decoration: none }
+    .side .md blockquote:last-of-type a { color: rgb(51, 102, 153); }
+    .side .md blockquote:last-of-type a:hover { text-decoration: underline; }
+     
+    /* END of Dropdown menu top */
+     
+    .titlebox blockquote {
+        background-color: rgb(246, 230, 159);
+        border: 1px solid rgb(255, 165, 0);
+        border-radius: 3px;
+        padding: 2px;
+        padding-left: 5px;
+        margin-left: 0px;
+    }
+     
+    /* Submit links */
+     
+    .morelink {
+        background-color: #8ebeef;
+        background-image: none;
+        border: 1px solid #77a7d6;
+    }
+     
+    .morelink:hover {
+        background-image: none;
+        background-color: #95c6f8;
+        border: 1px solid #77a7d6;
+        text-shadow: 1px 1px 5px #8b5eef;
+    }
+     
+    .morelink .nub {
+        display: none;
+    }
+     
+    /* END of Submit links */
+     
+    #search input[type="text"] {
+        color: #8ebeef;
+        border: 0px solid #8ebeef;
+        z-index: 6;
+        position: absolute;
+        top: 67px;
+        float: right;
+        font-size: 14px;
+        text-align: right;
+    }
+     
+     
+     
+    /* Flair selection */
+    .titlebox form.flairtoggle {
+        background-color: #cee6ff;
+        border: 1px solid #cee6ff;
+        color: rgb(51, 102, 153);
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 280px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+     
+    .titlebox .tagline {
+        border: 1px solid #cee6ff;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 280px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    /* END of Flair selection */
+     
+        /***** END of Side *****/
+         
+        /***** Content *****/
+     
+    .content {
+        margin-top: 30px;
+    }
+     
+    .link {
+        padding-bottom: 5px;
+        border-bottom: 1px solid #d1e8ff;
+    }
+     
+    .entry .buttons li a {
+        color: #7b97b4;
+        font-weight: normal;
+    }
+     
+    .entry .buttons li a.flairselectbtn {
+        font-weight: bold;
+    }
+     
+    .report-button:hover:after {
+        position: absolute;
+        white-space: normal;
+        display: block;
+        z-index: 1000;
+        width: 350px;
+        padding: 5px;
+        border: 0px solid #333;
+        background: #fca;
+        content: "Please also message the moderators a link and reason why you are reporting this, thanks. ";
+        text-align: center;
+        font-size: 10px;
+        color: red;
+        margin-left: 25px;
+        margin-top: 5px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px
+    }
+     
+    .linkinfo {
+        background-color: #b3d9ff;
+        border: 1px solid #8ebeef;
+        border-radius: 0px;
+    }
+     
+        /***** END of Content *****/
+         
+        /***** RES Stuff *****/
+     
+    /* RES post highlight */
+     
+    .res .RES-keyNav-activeElement,
+    .res .commentarea .RES-keyNav-activeElement .md,
+    .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed,
+    .res .keyHighlight,
+    .res .commentarea .keyHighlight .md,
+    .res .commentarea .keyHighlight.entry .noncollapsed {
+        outline: 0px solid!important;
+        background: none;
+        border-right: 3px solid #8ebeef;
+    }
+     
+    /* END of RES post highlight */
+     
+        /***** END of RES Stuff *****/
+         
+        /***** Link Flair Stuff *****/
+     
+    .linkflair-flair .linkflairlabel {
+        text-transform: uppercase;
+        color: #7b97b4;
+        background: none;
+        border: 0px;
+    }
+     
+        /***** END of Link Flair Stuff *****/
+         
+        /***** User Flair Stuff *****/
+        /***** End of User Flair Stuff *****/
+         
+        /***** Other *****/
+        /***** END of Other *****/
+
