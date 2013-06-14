@@ -167,7 +167,7 @@ body.res-nightmode #stylesheet_contents {
     top: 60px;
     left: -2px;
     border: 0 none;
-    z-index: 99;
+    z-index: 10;
     padding: 2px;
     background-color: #87e182;
     border-radius: 0px;
